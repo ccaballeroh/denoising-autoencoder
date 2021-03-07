@@ -1,11 +1,11 @@
 name: denoising-autoencoder
 channels:
-  - intel
-  - conda-forge
-  - defaults
+    - defaults
 dependencies:
-  - python=3.6
-  - pip=20.2.2
-  - ipykernel=5.3.4
-  - nb_conda_kernels
-  - tensorflow-gpu=2
+    - python=3.8
+    - pip
+    - matplotlib
+    - ipykernel
+    - nb_conda_kernels
+    - pip:
+        - tensorflow
