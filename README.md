@@ -2,3 +2,7 @@
 
 # denoising-autoencoder
 Example repo for a denoising autoencoder using Keras
+
+```bash
+$ conda env create -n denoising-autoencoder -f environment.yml
+```
